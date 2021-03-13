@@ -1,4 +1,4 @@
-@import "./_theme.sass";
+@import "_theme.scss";
 
 // color
 .ft-text {
@@ -69,15 +69,15 @@
     // color
     .ft-text {
         &.color-1 { 
-            color: $c-1d;
+            color: $c-1-2;
         }
     
         &.color-2 { 
-            color: $c-2d; 
+            color: $c-2-2; 
         }
     
         &.color-3 {
-            color: $c-3d; 
+            color: $c-3-2; 
         }
     }
 }

@@ -1,13 +1,13 @@
 .ft-text.color-1 {
-  color: #ffd726;
+  color: #006eff;
 }
 
 .ft-text.color-2 {
-  color: #00ff15;
+  color: #10c720;
 }
 
 .ft-text.color-3 {
-  color: #00a2ff;
+  color: #fff019;
 }
 
 .ft-text.size-1 {
@@ -56,12 +56,118 @@
 
 @media (prefers-color-scheme: dark) {
   .ft-text.color-1 {
-    color: #b87d00;
+    color: #004db3;
   }
   .ft-text.color-2 {
-    color: #03810e;
+    color: #059611;
   }
   .ft-text.color-3 {
-    color: #004974;
+    color: #dab904;
+  }
+}
+
+.ft-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ft-component.header {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 2rem;
+}
+
+.ft-component.header.bg-color-1 {
+  background-color: #006eff;
+  color: #f1ecec;
+}
+
+.ft-component.header.bg-color-2 {
+  background-color: #10c720;
+  color: #f1ecec;
+}
+
+.ft-component.header.bg-color-3 {
+  background-color: #fff019;
+  color: #0f0f0f;
+}
+
+.ft-component.header.bg-color-4 {
+  background-color: #dd442f;
+  color: #f1ecec;
+}
+
+.ft-component.header.bg-color-5 {
+  background-color: #0ebfcc;
+  color: #0f0f0f;
+}
+
+.ft-component.header.bg-color-w {
+  background-color: #f1ecec;
+  color: #0f0f0f;
+}
+
+.ft-component.header.bg-color-b {
+  background-color: #0f0f0f;
+  color: #f1ecec;
+}
+
+.ft-component.header * {
+  font-size: 2rem;
+  margin: 0;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ft-flex.header.bg-color-1 {
+    background-color: #006eff;
+    color: #004db3;
+  }
+  .ft-flex.header.bg-color-2 {
+    background-color: #003b05;
+    color: #f1ecec;
+  }
+  .ft-flex.header.bg-color-3 {
+    background-color: #5c5600;
+    color: #f1ecec;
+  }
+  .ft-flex.header.bg-color-4 {
+    background-color: #580a00;
+    color: #f1ecec;
+  }
+  .ft-flex.header.bg-color-5 {
+    background-color: #0e767e;
+    color: #f1ecec;
+  }
+  .ft-flex.header.bg-color-w {
+    background-color: #f1ecec;
+    color: #0f0f0f;
+  }
+  .ft-flex.header.bg-color-b {
+    background-color: #0f0f0f;
+    color: #f1ecec;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1ecec;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #8d8d8d;
   }
 }

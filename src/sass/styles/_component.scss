@@ -1,0 +1,98 @@
+@import '_theme';
+
+.ft-component {
+
+    // Default Header
+    &.header {
+        flex-direction: row;
+        margin: 0;
+        padding: $p-4;
+
+        &.bg-color-1{
+            background-color: $c-1;
+            color: $c-w;
+        }
+
+        &.bg-color-2{
+            background-color: $c-2;
+            color: $c-w;
+        }
+
+        &.bg-color-3{
+            background-color: $c-3;
+            color: $c-b;
+        }
+
+        &.bg-color-4{
+            background-color: $c-4;
+            color: $c-w;
+        }
+
+        &.bg-color-5{
+            background-color: $c-5;
+            color: $c-b;
+        }
+
+        &.bg-color-w{
+            background-color: $c-w;
+            color: $c-b;
+        }
+
+        &.bg-color-b{
+            background-color: $c-b;
+            color: $c-w;
+        }
+
+        * {
+            font-size: $f-s3;
+            margin: $m-0;
+            font-family: $f-f1;
+        }
+    }
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+    // color
+    .ft-flex {
+
+        &.header {
+    
+            &.bg-color-1{
+                background-color: $c-1;
+                color: $c-1-2;
+            }
+    
+            &.bg-color-2{
+                background-color: $c-2d;
+                color: $c-w;
+            }
+    
+            &.bg-color-3{
+                background-color: $c-3d;
+                color: $c-w;
+            }
+    
+            &.bg-color-4{
+                background-color: $c-4d;
+                color: $c-w;
+            }
+    
+            &.bg-color-5{
+                background-color: $c-5d;
+                color: $c-w;
+            }
+    
+            &.bg-color-w{
+                background-color: $c-w;
+                color: $c-b;
+            }
+    
+            &.bg-color-b{
+                background-color: $c-b;
+                color: $c-w;
+            }
+        }
+    }
+}
