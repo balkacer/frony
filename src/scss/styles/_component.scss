@@ -16,6 +16,7 @@
 }
 
 .container-1{
+    display: flex;
     padding: $p-0-75 $p-3-75;
 }
 
@@ -35,17 +36,15 @@
     border-radius: $br-0-75;
     background-color: $c-w-l;
     overflow: hidden;
-    padding: $p-0 !important;
+    padding: $p-0;
 
     .card-header {
-        flex-direction: row;
         margin: $m-0;
         padding: $p-1-5;
         width: 100%;
     
         * {
             font-size: $f-s4;
-            margin: $m-0;
             font-family: $f-f1;
             font-weight: $f-w3;
         }

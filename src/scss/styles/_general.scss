@@ -293,6 +293,14 @@ html, body {
 }
 
 // align
-.align-rigth {
+.align-right {
     float: right;
+}
+
+.align-left {
+    float: left;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
