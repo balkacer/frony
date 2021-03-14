@@ -1,0 +1,31 @@
+@import "_theme";
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: $c-w;
+}
+
+::-webkit-scrollbar {
+    width: .3rem;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: $br-0-25;
+    background-color: $c-1;
+}
+
+.scroll-x {
+    overflow-x: scroll;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+}
+
+.scroll {
+    overflow: scroll;
+}

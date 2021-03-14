@@ -1,0 +1,156 @@
+@import "_theme.scss";
+
+
+@media (prefers-color-scheme: light) {
+    html, body {
+        background-color: $c-w;
+    }
+    // color
+    .color-1 { 
+        color: $c-1;
+    }
+
+    .color-2 { 
+        color: $c-2; 
+    }
+
+    .color-3 {
+        color: $c-3; 
+    }
+
+    .color-4 { 
+        color: $c-4;
+    }
+
+    .color-5 { 
+        color: $c-5; 
+    }
+
+    .color-w {
+        color: $c-w; 
+    }
+
+    .color-b { 
+        color: $c-b;
+    }
+
+    // background-color
+    .bg-color-1{
+        background-color: $c-1;
+        color: $c-w;
+    }
+
+    .bg-color-2{
+        background-color: $c-2;
+        color: $c-w;
+    }
+
+    .bg-color-3{
+        background-color: $c-3;
+        color: $c-b;
+    }
+
+    .bg-color-4{
+        background-color: $c-4;
+        color: $c-w;
+    }
+
+    .bg-color-5{
+        background-color: $c-5;
+        color: $c-b;
+    }
+
+    .bg-color-w{
+        background-color: $c-w;
+        color: $c-b;
+    }
+
+    .bg-color-b{
+        background-color: $c-b;
+        color: $c-w;
+    }
+
+    // baground-color-full
+    .bg-color-1-full{
+        background-color: $c-1;
+        color: $c-1-2;
+    }
+
+    .bg-color-2-full{
+        background-color: $c-2;
+        color: $c-2-2;
+    }
+
+    .bg-color-3-full{
+        background-color: $c-3;
+        color: $c-3-2;
+    }
+
+    .bg-color-4-full{
+        background-color: $c-4;
+        color: $c-4-2;
+    }
+
+    .bg-color-5-full{
+        background-color: $c-5;
+        color: $c-5-2;
+    }
+
+    .bg-color-w-full{
+        background-color: $c-w;
+        color: $c-w-2;
+    }
+
+    .bg-color-b-full{
+        background-color: $c-b;
+        color: $c-b-l;
+    }
+
+    //background-color transparent
+    .bg-color-1-transparent{
+        background-color: $c-w-l;
+        color: $c-1;
+    }
+
+    .bg-color-2-transparent{
+        background-color: $c-w-l;
+        color: $c-2;
+    }
+
+    .bg-color-3-transparent{
+        background-color: $c-w-l;
+        color: $c-3;
+    }
+
+    .bg-color-4-transparent{
+        background-color: $c-w-l;
+        color: $c-4;
+    }
+
+    .bg-color-5-transparent{
+        background-color: $c-w-l;
+        color: $c-5;
+    }
+
+    .bg-color-w-transparent{
+        background-color: $c-w-l;
+        color: $c-w;
+    }
+
+    .bg-color-b-transparent{
+        background-color: $c-w-l;
+        color: $c-b;
+    }
+
+    .card {
+        background-color: $c-w-l;
+
+        .card-body {
+            background-color: $c-w-l;
+
+            .box-container{
+                background-color: $c-w;
+            }
+        }
+    }
+}
