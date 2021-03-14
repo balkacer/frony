@@ -3,5 +3,5 @@
 *.sass.map
 *.scss.map
 .vscode/
-.src/scss/styles/*.css,
+.src/scss/styles/*.css
 .src/scss/styles/*.min.css
