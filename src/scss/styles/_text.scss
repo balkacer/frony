@@ -1,22 +1,7 @@
 @import "_theme.scss";
 
-// color
 .ft-text {
-    &.color-1 { 
-        color: $c-1;
-    }
-
-    &.color-2 { 
-        color: $c-2; 
-    }
-
-    &.color-3 {
-        color: $c-3; 
-    }
-}
-
-// size
-.ft-text {
+    // size
     &.size-1 {
         font-size: $f-s1;
     }
@@ -40,17 +25,12 @@
     &.size-6 {
         font-size: $f-s6;
     }
-}
-
-// family
-.ft-text {
+    // family
     &.family-1 {
         font-family: $f-f1;
     }
-}
 
-// weight
-.ft-text {
+    // weight
     &.weight-1 {
         font-weight: $f-w1;
     }
@@ -62,22 +42,5 @@
     }
     &.weight-4 {
         font-weight: $f-w4;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    // color
-    .ft-text {
-        &.color-1 { 
-            color: $c-1-2;
-        }
-    
-        &.color-2 { 
-            color: $c-2-2; 
-        }
-    
-        &.color-3 {
-            color: $c-3-2; 
-        }
     }
 }

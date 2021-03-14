@@ -1,0 +1,382 @@
+@import "_theme.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $f-f1;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+// margin
+.m-1{
+    margin: $m-0;
+}
+
+.m-1{
+    margin: $m-0-5;
+}
+
+.m-2{
+    margin: $m-1;
+}
+
+.m-3{
+    margin: $m-1-5;
+}
+
+.m-4{
+    margin: $m-2;
+}
+
+.m-5{
+    margin: $m-3;
+}
+
+.m-6{
+    margin: $m-3-5;
+}
+
+.m-7{
+    margin: $m-1-5;
+}
+
+.m-8{
+    margin: $m-2;
+}
+
+.m-9{
+    margin: $m-3;
+}
+
+.m-10{
+    margin: $m-3-5;
+}
+
+.m-top-1 {
+    margin-bottom: $p-1;
+}
+
+.m-top-bottom-1 {
+    margin-top: $p-1;
+    margin-bottom: $p-1;
+}
+
+// boder-color
+.border-0 {
+    border: 0
+}
+
+.border-1 {
+    border-color: $c-1;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+.border-2 {
+    border-color: $c-2;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+.border-3 {
+    border-color: $c-3;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+.border-4 {
+    border-color: $c-4;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+.border-5 {
+    border-color: $c-5;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+.border-w {
+    border-color: $c-w;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+.border-b {
+    border-color: $c-b;
+    border-style: solid;
+    border-width: $border-w;
+}
+
+// width
+.w-max-100 {
+    max-width: 100%;
+}
+
+.w-max-95{
+    max-width: 95%;
+}
+
+.w-max-90{
+    max-width: 90%;
+}
+
+.w-max-85{
+    max-width: 85%;
+}
+
+.w-max-80{
+    max-width: 80%;
+}
+
+.w-max-75{
+    max-width: 75%;
+}
+
+.w-max-70{
+    max-width: 70%;
+}
+
+.w-max-65{
+    max-width: 65%;
+}
+
+.w-max-60{
+    max-width: 60%;
+}
+
+.w-max-55{
+    max-width: 55%;
+}
+
+.w-max-50{
+    max-width: 50%;
+}
+
+.w-max-45{
+    max-width: 45%;
+}
+
+.w-max-40{
+    max-width: 40%;
+}
+
+.w-max-35{
+    max-width: 35%;
+}
+
+.w-max-30{
+    max-width: 30%;
+}
+
+.w-max-25{
+    max-width: 25%;
+}
+
+.w-max-20{
+    max-width: 20%;
+}
+
+.w-max-15{
+    max-width: 15%;
+}
+
+.w-max-10{
+    max-width: 10%;
+}
+
+.w-max-5{
+    max-width: 5%;
+}
+
+.w-max-0{
+    max-width: 0;
+}
+
+
+// height
+.h-max-100 {
+    max-height: 100%;
+}
+
+.h-max-95{
+    max-height: 95%;
+}
+
+.h-max-90{
+    max-height: 90%;
+}
+
+.h-max-85{
+    max-height: 85%;
+}
+
+.h-max-80{
+    max-height: 80%;
+}
+
+.h-max-75{
+    max-height: 75%;
+}
+
+.h-max-70{
+    max-height: 70%;
+}
+
+.h-max-65{
+    max-height: 65%;
+}
+
+.h-max-60{
+    max-height: 60%;
+}
+
+.h-max-55{
+    max-height: 55%;
+}
+
+.h-max-50{
+    max-height: 50%;
+}
+
+.h-max-45{
+    max-height: 45%;
+}
+
+.h-max-40{
+    max-height: 40%;
+}
+
+.h-max-35{
+    max-height: 35%;
+}
+
+.h-max-30{
+    max-height: 30%;
+}
+
+.h-max-25{
+    max-height: 25%;
+}
+
+.h-max-20{
+    max-height: 20%;
+}
+
+.h-max-15{
+    max-height: 15%;
+}
+
+.h-max-10{
+    max-height: 10%;
+}
+
+.h-max-5{
+    max-height: 5%;
+}
+
+.h-max-0{
+    max-height: 0;
+}
+
+// height in rem
+.h-max-1-rem {
+    max-height: $rem-1;
+}
+
+.h-max-2-rem {
+    max-height: $rem-2;
+}
+
+.h-max-3-rem {
+    max-height: $rem-3;
+}
+
+.h-max-4-rem {
+    max-height: $rem-4;
+}
+
+.h-max-5-rem {
+    max-height: $rem-5;
+}
+
+.h-max-6-rem {
+    max-height: $rem-6;
+}
+
+.h-max-7-rem {
+    max-height: $rem-7;
+}
+
+.h-max-8-rem {
+    max-height: $rem-8;
+}
+
+.h-max-9-rem {
+    max-height: $rem-9;
+}
+
+.h-max-10-rem {
+    max-height: $rem-10;
+}
+
+.h-max-11-rem {
+    max-height: $rem-11;
+}
+
+.h-max-12-rem {
+    max-height: $rem-12;
+}
+
+.h-max-13-rem {
+    max-height: $rem-13;
+}
+
+.h-max-14-rem {
+    max-height: $rem-14;
+}
+
+.h-max-15-rem {
+    max-height: $rem-15;
+}
+
+.h-max-16-rem {
+    max-height: $rem-16;
+}
+
+.h-max-17-rem {
+    max-height: $rem-17;
+}
+
+.h-max-18-rem {
+    max-height: $rem-18;
+}
+
+.h-max-19-rem {
+    max-height: $rem-19;
+}
+
+.h-max-20-rem {
+    max-height: $rem-20;
+}
+
+// align
+.align-right {
+    float: right;
+}
+
+.align-left {
+    float: left;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}

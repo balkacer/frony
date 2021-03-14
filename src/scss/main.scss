@@ -1,22 +1,10 @@
 @import "styles/_theme";
+@import "styles/_general";
+@import "styles/_scroll";
 @import "styles/_text";
 @import "styles/_flex";
 @import "styles/_component";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: $c-w;
-}
-
-@media (prefers-color-scheme: dark) {
-    html, body {
-        background-color: $c-wd;
-    }
-}
+// dark and light
+@import "styles/_color-light";
+@import "styles/_color-dark";

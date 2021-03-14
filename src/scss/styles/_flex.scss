@@ -1,5 +1,23 @@
 @import "_theme.scss";
 
-.ft-flex {
+.display-flex {
     display: flex;
+
+    &.flex-x {
+        flex-direction: row;
+    }
+
+    &.flex-y {
+        flex-direction: column;
+    }
 }
+
+.display-inline {
+    display: inline;
+}
+
+.display-grid {
+    display: grid;
+}
+
+
