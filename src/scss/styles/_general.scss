@@ -14,9 +14,12 @@ html, body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
 
 // margin
-.m-1{
+.m-0{
     margin: $m-0;
 }
 
@@ -61,12 +64,81 @@ html, body {
 }
 
 .m-top-1 {
-    margin-bottom: $p-1;
+    margin-bottom: $m-1;
 }
 
 .m-top-bottom-1 {
-    margin-top: $p-1;
-    margin-bottom: $p-1;
+    margin-top: $m-1;
+    margin-bottom: $m-1;
+}
+
+.m-left-right-1 {
+    margin-left: $m-1;
+    margin-right: $m-1;
+}
+
+// padding
+.p-0{
+    padding: $p-0;
+}
+
+.p-1{
+    padding: $p-0-5;
+}
+
+.p-2{
+    padding: $p-1;
+}
+
+.p-3{
+    padding: $p-1-5;
+}
+
+.p-4{
+    padding: $p-2;
+}
+
+.p-5{
+    padding: $p-3;
+}
+
+.p-6{
+    padding: $p-3-5;
+}
+
+.p-7{
+    padding: $p-1-5;
+}
+
+.p-8{
+    padding: $p-2;
+}
+
+.p-9{
+    padding: $p-3;
+}
+
+.p-10{
+    padding: $p-3-5;
+}
+
+.p-top-1 {
+    padding-bottom: $p-1;
+}
+
+.p-top-bottom-1 {
+    padding-top: $p-1;
+    padding-bottom: $p-1;
+}
+
+.p-left-right-1 {
+    padding-left: $p-1;
+    padding-right: $p-1;
+}
+
+.p-left-right-2 {
+    padding-left: $p-2;
+    padding-right: $p-2;
 }
 
 // boder-color
@@ -379,4 +451,8 @@ html, body {
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
 }

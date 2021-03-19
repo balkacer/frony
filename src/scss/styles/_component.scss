@@ -1,6 +1,5 @@
 @import '_theme';
 
-
 // Default Header
 .header {
     flex-direction: row;
@@ -13,6 +12,212 @@
         font-family: $f-f1;
         font-weight: $f-w3;
     }
+}
+
+.side-bar {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    position: relative;
+    
+    &.collapse {
+        width: 3.8rem;
+        max-width: 3.8rem;
+        min-width: 3.8rem;
+
+        .side-bar-header{
+            &#side-header-closed {
+                display: inline-block;
+                margin: $m-0;
+                padding: $p-0-25;
+                width: 100%;
+                height: 8vh !important;
+                min-height: 8vh !important;
+                max-height: 8vh !important;
+
+                * {
+                    margin: $m-0;
+                    width: 100%;
+                }
+            }
+
+            &#side-header-opened {
+                display: none;
+            }
+        }
+
+        .side-bar-body {
+            overflow-y: hidden;
+            height: 92vh !important;
+            min-height: 92vh !important;
+            max-height: 92vh !important;
+            .side-bar-item {
+                span {
+                    display: none;
+                }
+
+                span[class^="icon-"] {
+                    display: initial;
+                }
+            }
+        }
+    }
+
+    .side-bar-header{
+        &#side-header-opened {
+            margin: $m-0;
+            padding: $p-1-5;
+            width: 100%;
+            height: 15vh !important;
+            min-height: 15vh !important;
+            max-height: 15vh !important;
+        
+            * {
+                margin: $m-0;
+            }
+        }
+
+        &#side-header-closed {
+            display: none;
+        }
+    }
+
+    .side-bar-body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding: $p-0;
+        display: flex;
+        flex-direction: column;
+        height: 85vh !important;
+        min-height: 85vh !important;
+        max-height: 85vh !important;
+
+        .side-bar-item {
+            display: flex;
+            flex-direction: column;
+            margin: $m-0;
+            transition: 1s;
+
+            &.expanded {
+                transition: 1s;
+                .side-bar-sub-items {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .side-bar-sub-items-2{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .side-bar-item-title {
+                text-align: left;
+                font-weight: $f-w3;
+                display: flex;
+                flex-direction: row;
+                padding: $p-1-25;
+                border: 0;
+            }
+
+            .side-bar-sub-items{
+                transition: 1s;
+                display: none;
+
+                .side-bar-sub-item {
+                    display: flex;
+                    flex-direction: row;
+                    padding: $p-1;
+                    margin: $m-0-5;
+                    border-radius: $br-0-25;
+
+                    &:hover{
+                        background-color: $c-1-2;
+                        color: $c-1;
+                    }
+
+                    &.active {
+                        background-color: $c-1-l;
+                        color: $c-1-d;
+                    }
+                }
+            }
+
+            .side-bar-sub-items-2 {
+                transition: 1s;
+                display: none;
+                padding: $p-0-25 0;
+
+                .side-bar-item-2 {
+                    display: flex;
+                    flex-direction: column;
+                    margin: $m-0-25 $m-0-75;
+                    transition: 1s;
+        
+                    &.expanded {
+                        transition: 1s;
+                        .side-bar-sub-items {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+        
+                    .side-bar-item-title-2 {
+                        text-align: left;
+                        font-weight: $f-w3;
+                        display: flex;
+                        flex-direction: row;
+                        padding: $p-1-25;
+                        border: 0;
+                        border-radius: $br-0-25;
+                    }
+        
+                    .side-bar-sub-items{
+                        transition: 1s;
+                        display: none;
+        
+                        .side-bar-sub-item {
+                            display: flex;
+                            flex-direction: row;
+                            padding: $p-1;
+                            margin: $m-0-5;
+                            border-radius: $br-0-25;
+        
+                            &:hover{
+                                background-color: $c-1-2;
+                                color: $c-1;
+                            }
+        
+                            &.active {
+                                background-color: $c-1-l;
+                                color: $c-1-d;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .side-bar-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: $p-0-75;
+        bottom: 0;
+         
+        * {
+            font-size: $f-s4;
+            border-radius: $br-1;
+            padding: $p-0-75;
+            width: auto;
+        }
+    }
+}
+
+.container-0{
+    display: flex;
+    padding: $p-0;
 }
 
 .container-1{
@@ -29,6 +234,10 @@
         font-size: $f-s4;
         font-family: $f-f1;
         font-weight: $f-w3;
+    }
+
+    [class^="icon-"] {
+        display: inline-block;
     }
 }
 
@@ -59,5 +268,15 @@
             padding: $p-0-75;
             background-color: $c-w;
         }
+    }
+}
+
+button {
+    border: 0;
+    padding: $p-1;
+    border-radius: $br-0-25;
+
+    &.action-btn {
+        background: transparent !important;
     }
 }

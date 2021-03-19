@@ -2,14 +2,16 @@
 
 .display-flex {
     display: flex;
+}
 
-    &.flex-x {
-        flex-direction: row;
-    }
+.flex-x {
+    display: flex;
+    flex-direction: row;
+}
 
-    &.flex-y {
-        flex-direction: column;
-    }
+.flex-y {
+    display: flex;
+    flex-direction: column;
 }
 
 .display-inline {
@@ -20,4 +22,26 @@
     display: grid;
 }
 
+.column-auto {
+    width: 100%;
+}
 
+.column-25 {
+    max-width: 25%;
+    min-width: 25%;
+}
+
+.column-50 {
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.column-75 {
+    max-width: 75%;
+    min-width: 75%;
+}
+
+.column-100 {
+    max-width: 100%;
+    min-width: 100%;
+}

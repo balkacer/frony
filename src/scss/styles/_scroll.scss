@@ -1,8 +1,8 @@
 @import "_theme";
 
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background-color: $c-w;
+    border-radius: $br-0-25;
+    background-color: $c-w;
 }
 
 ::-webkit-scrollbar {
@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar:horizontal {
-    height: 1rem;
+    height: .3rem;
 }
 
 ::-webkit-scrollbar-thumb {
